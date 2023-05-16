@@ -1,0 +1,28 @@
+site_name: Hexcrawl Now
+
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/logo.png
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Roles:
+    - Role1: roles/role1.md
+    - Role2: roles/role2.md
